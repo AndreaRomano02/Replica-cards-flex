@@ -21,8 +21,16 @@ body{
   max-width: 1200px;
 }
 
+main{
+  color: white;
+}
 .card-container{
   display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: var(--email);
 }
 /* header */
 header{
@@ -41,7 +49,7 @@ header p{
 
 /* main */
 .card-sub-container{
-  min-height: 150px;
+  min-height: 100px;
   width: calc(100% / 3);
   padding: 10px;
 }
@@ -50,6 +58,18 @@ header p{
   background-color: black;
 }
 
+.card-image{
+  padding-right: 10px;
+}
+
+.card-image img{
+  height: 100px;
+}
+
+.card-content{
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 /* utility */
 .d-flex{
   display: flex;
