@@ -23,7 +23,9 @@ body{
 
 main{
   color: white;
+  margin-top: 50px;
 }
+
 .card-container{
   display: flex;
 }
