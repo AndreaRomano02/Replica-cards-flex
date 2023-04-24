@@ -21,6 +21,9 @@ body{
   max-width: 1200px;
 }
 
+.card-container{
+  display: flex;
+}
 /* header */
 header{
   text-align: center;
@@ -34,4 +37,20 @@ header h1{
 
 header p{
   font-size: 1.2rem;
+}
+
+/* main */
+.card-sub-container{
+  min-height: 150px;
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.card{
+  background-color: black;
+}
+
+/* utility */
+.d-flex{
+  display: flex;
 }
