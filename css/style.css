@@ -82,3 +82,13 @@ header p{
 .d-flex{
   display: flex;
 }
+
+/* Effects */
+.card:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.card:active{
+  display: none;
+}
